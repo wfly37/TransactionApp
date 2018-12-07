@@ -17,6 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'edu.dcccd'
 version = '0.0.1'
+
 sourceCompatibility = 10
 
 repositories {
@@ -28,6 +29,7 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('org.springframework.boot:spring-boot-starter-security')
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
     implementation('org.projectlombok:lombok')
     runtimeOnly('com.h2database:h2')
